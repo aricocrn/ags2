@@ -1,0 +1,46 @@
+ul{
+  width: 1000px;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+}
+li{
+  background-color: cyan;
+  display: block;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  float: left;
+  box-shadow: #555 0px 0px 3px;
+  background-size: 100%;
+}
+/*
+.anulador{
+  clear: both;
+}
+*/
+a{
+  height: 200px;
+  display: block;
+}
+#a01{
+  background-image: url(img/a01.png);
+}
+#a02{
+  background-image: url(img/a02.png);
+}
+#a03{
+  background-image: url(img/a03.png);
+}
+#a04{
+  background-image: url(img/a04.png);
+}
+#a05{
+  background-image: url(img/a05.png);
+}
+#a06{
+  background-image: url(img/a06.png);
+}
+#a07{
+  background-image: url(img/a07.png);
+}
