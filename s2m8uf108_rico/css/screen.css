@@ -15,17 +15,382 @@ body{
   background-repeat: no-repeat;
   background-position: center;
 }
-.contingut2{
-  height: 100%;
-  background-color: #F6F6F6;
-  background-image: url(../img/user1.png);
-  background-repeat: no-repeat;
-}
-
 h1{
-  margin-top: 60%;
+  margin-top: 20%;
   text-align: center;
   font-size: 3em;
   color: white;
   font-weight: 700;
+}
+.cap{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #F6F6F6;
+  height: 50px;
+}
+#perfil{
+  width: 60px;
+  height: 50px;
+  position: fixed;
+  background-image: url(../img/user1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cos{
+  position: fixed;
+  top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 42px;
+  background-color: #F6F6F6;
+  overflow-y: scroll;
+}
+.peu{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFB45C;
+  height: 70px;
+}
+.boto{
+  position: fixed;
+  bottom: 140px;
+  right: 40px;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: #FFB45C;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  left: 60px;
+}
+li{
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  background-color: #E5E5E5;
+  height: 50px;
+  width: 127px;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 20px;
+  color: #FFB45C;
+}
+#login{
+  background-color: #F0F0F0;
+}
+#platos{
+  width: 117px;
+  height: 117px;
+  background-color: #FFB45C;
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  background-image: url(../img/hamburger1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#bebidas{
+  width: 117px;
+  height: 117px;
+  background-color: #FFB45C;
+  position: absolute;
+  top: 60px;
+  left: 280px;
+  background-image: url(../img/burguer1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#postre{
+  width: 117px;
+  height: 117px;
+  background-color: #FFB45C;
+  position: absolute;
+  top: 260px;
+  left: 80px;
+  background-image: url(../img/cupcake1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#comandas{
+  width: 117px;
+  height: 117px;
+  background-color: #FFB45C;
+  position: absolute;
+  top: 260px;
+  left: 280px;
+  background-image: url(../img/edit1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#ajustes{
+  width: 117px;
+  height: 117px;
+  background-color: #FFB45C;
+  position: absolute;
+  top: 460px;
+  left: 80px;
+  background-image: url(../img/settings1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#conver{
+  width: 117px;
+  height: 117px;
+  background-color: #FFB45C;
+  position: absolute;
+  top: 460px;
+  left: 280px;
+  background-image: url(../img/chat1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#platos2{
+  width: 73px;
+  height: 73px;
+  background-color: #F0F0F0;
+  float: left;
+  margin-left: 60px;
+}
+.icono{
+  margin-left: 17px;
+  margin-top: 6px;
+}
+#platosprincipal{
+  width: 73px;
+  height: 73px;
+  background-color: #FFB45C;
+  float: left;
+  margin-left: 60px;
+}
+.iconodiv1{
+  width: 73px;
+  height: 73px;
+  background-color: #E5E5E5;
+  float: left;
+}
+.iconodiv2{
+  width: 73px;
+  height: 73px;
+  background-color: #F0F0F0;
+  float: left;
+}
+.iconodiv3{
+  width: 73px;
+  height: 73px;
+  background-color: #FFB45C;
+  float: left;
+}
+#img1{
+  width: 90px;
+  height: 90px;
+  background-color: #E5E5E5;
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+#img2{
+  width: 90px;
+  height: 90px;
+  background-color: #E5E5E5;
+  position: absolute;
+  top: 210px;
+  left: 80px;
+}
+#img3{
+  width: 90px;
+  height: 90px;
+  background-color: #E5E5E5;
+  position: absolute;
+  top: 360px;
+  left: 80px;
+}
+#bocadillos{
+  width: 176px;
+  height: 90px;
+  background-color: #FFB45C;
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+#bocadillos img{
+  position: absolute;
+  top: 50px;
+  left: 135px;
+}
+#bocadillos h3{
+  padding-left: 13px;
+  padding-top: 10px;
+}
+#tapas{
+  width: 176px;
+  height: 90px;
+  background-color: #FFB45C;
+  position: absolute;
+  top: 210px;
+  left: 200px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+#tapas img{
+  position: absolute;
+  top: 50px;
+  left: 135px;
+}
+#tapas h3{
+  padding-left: 13px;
+  padding-top: 10px;
+}
+#hamburguesas{
+  width: 176px;
+  height: 90px;
+  background-color: #FFB45C;
+  position: absolute;
+  top: 360px;
+  left: 200px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+#hamburguesas img{
+  position: absolute;
+  top: 50px;
+  left: 135px;
+}
+#hamburguesas h3{
+  padding-left: 13px;
+  padding-top: 10px;
+}
+.img4{
+  width: 117px;
+  height: 117px;
+  background-color: #E5E5E5;
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+.img5{
+  width: 117px;
+  height: 117px;
+  background-color: #E5E5E5;
+  position: absolute;
+  top: 60px;
+  left: 280px;
+}
+.img6{
+  width: 117px;
+  height: 117px;
+  background-color: #E5E5E5;
+  position: absolute;
+  top: 260px;
+  left: 80px;
+}
+.img7{
+  width: 117px;
+  height: 117px;
+  background-color: #E5E5E5;
+  position: absolute;
+  top: 260px;
+  left: 280px;
+}
+.img8{
+  width: 117px;
+  height: 117px;
+  background-color: #E5E5E5;
+  position: absolute;
+  top: 460px;
+  left: 80px;
+}
+.img9{
+  width: 117px;
+  height: 117px;
+  background-color: #E5E5E5;
+  position: absolute;
+  top: 460px;
+  left: 280px;
+}
+.mas{
+  margin-left: 80px;
+  margin-top: 8px;
+}
+.nombebida1{
+  width: 116px;
+  height: 21px;
+  background-color: #FFB45C;
+  font-size: 13px;
+  position: absolute;
+  top: 190px;
+  left: 80px;
+  color: white;
+  text-align: center;
+  padding-top: 2px;
+}
+.nombebida2{
+  width: 116px;
+  height: 21px;
+  background-color: #FFB45C;
+  font-size: 13px;
+  position: absolute;
+  top: 190px;
+  left: 280px;
+  color: white;
+  text-align: center;
+  padding-top: 2px;
+}
+.nombebida3{
+  width: 116px;
+  height: 21px;
+  background-color: #FFB45C;
+  font-size: 13px;
+  position: absolute;
+  top: 390px;
+  left: 80px;
+  color: white;
+  text-align: center;
+  padding-top: 2px;
+}
+.nombebida4{
+  width: 116px;
+  height: 21px;
+  background-color: #FFB45C;
+  font-size: 13px;
+  position: absolute;
+  top: 390px;
+  left: 280px;
+  color: white;
+  text-align: center;
+  padding-top: 2px;
+}
+.nombebida5{
+  width: 116px;
+  height: 21px;
+  background-color: #FFB45C;
+  font-size: 13px;
+  position: absolute;
+  top: 590px;
+  left: 80px;
+  color: white;
+  text-align: center;
+  padding-top: 2px;
+}
+.nombebida6{
+  width: 116px;
+  height: 21px;
+  background-color: #FFB45C;
+  font-size: 13px;
+  position: absolute;
+  top: 590px;
+  left: 280px;
+  color: white;
+  text-align: center;
+  padding-top: 2px;
 }
