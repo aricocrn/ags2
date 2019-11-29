@@ -40,7 +40,7 @@ body{
   height: 117px;
   background-color: #FFB45C;
   float: left;
-  margin-right: 100px;
+  margin-right: 50px;
   margin-top: 50px;
   font-size: 28px;
 }
@@ -49,7 +49,7 @@ body{
   height: 117px;
   background-color: #FFB45C;
   float: left;
-  margin-right: 100px;
+  margin-right: 50px;
   margin-top: 50px;
   font-size: 28px;
 }
@@ -77,6 +77,7 @@ body{
   bottom: 42px;
   background-color: #F6F6F6;
   overflow-y: scroll;
+  width: 100%;
 }
 .peu{
   position: fixed;
@@ -113,7 +114,7 @@ ul{
   margin: 0;
   background-color: #E5E5E5;
   height: 50px;
-  width: 127px;
+  width: 80px;
   text-align: center;
   padding-top: 10px;
   padding-right: 20px;
