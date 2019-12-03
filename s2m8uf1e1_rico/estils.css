@@ -1,0 +1,175 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #222;
+  color: #FFF;
+}
+#peu{
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  color: #FFF;
+  position: fixed;
+  top: 0px;
+  opacity: 0.8;
+}
+#peu img{
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+#secciones h3{
+  float: left;
+  margin-left: 10px;
+}
+#secciones{
+  width: 350px;
+  margin-left: 100px;
+  height: 50px;
+}
+#interessants{
+  width: 100%;
+  margin-left: 20px;
+  clear: both;
+}
+#doc1{
+  width: 175px;
+  height: 265px;
+  border-radius: 5px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#doc1:hover{
+  opacity: 0.5;
+}
+#doc1 img{
+  border-radius: 5px;
+}
+.doc2{
+  width: 175px;
+  height: 340px;
+  border-radius: 5px;
+  margin-left: 20px;
+  float: left;
+  margin-top: 20px;
+}
+.doc2 img{
+  border-radius: 5px;
+}
+.doc2:hover{
+  opacity: 0.5;
+}
+.docG{
+  width: 175px;
+  height: 340px;
+  border-radius: 5px;
+  margin-left: 20px;
+  float: left;
+  margin-top: 20px;
+}
+.docG img{
+  border-radius: 5px;
+  filter: grayscale(100%);
+}
+.docG:hover{
+  opacity: 0.5;
+}
+.docultimg img{
+  border-radius: 5px;
+}
+.docultimg:hover{
+  opacity: 0.5;
+}
+.docultimg{
+  width: 175px;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+  filter: grayscale(100%);
+}
+.docultim img{
+  border-radius: 5px;
+}
+.docultim:hover{
+  opacity: 0.5;
+}
+.docultim{
+  width: 175px;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+}
+#docultim img{
+  border-radius: 5px;
+}
+#docultim:hover{
+  opacity: 0.5;
+}
+#vistos{
+  width: 100%;
+  margin-left: 20px;
+  clear: both;
+}
+#pendents{
+  width: 100%;
+  margin-left: 20px;
+  clear: both;
+}
+#series{
+  width: 100%;
+  margin-left: 20px;
+  clear: both;
+}
+#pvistes{
+  width: 100%;
+  margin-left: 20px;
+  clear: both;
+}
+#svistes{
+  width: 100%;
+  margin-left: 20px;
+  clear: both;
+}
+.rojo{
+  width: 175px;
+  height: 340px;
+  border-radius: 5px;
+  margin-left: 20px;
+  float: left;
+  margin-top: 20px;
+}
+.rojo img{
+  border-radius: 5px;
+}
+.rojo:hover{
+  opacity: 0.5;
+}
+.rojo2{
+  width: 175px;
+  height: 340px;
+  border-radius: 5px;
+  margin-left: 20px;
+  float: left;
+  margin-top: 20px;
+  filter: grayscale(100%);
+}
+.rojo2 img{
+  border-radius: 5px;
+}
+.rojo2:hover{
+  opacity: 0.5;
+}
+a:hover{
+  color: #222;
+}
+a:visited{
+  color: #FFF;
+}
+a:link{
+  color: #FFF;
+}
+#contenidor{
+  margin-top: 70px;
+}
