@@ -8,7 +8,7 @@
   <title>Document</title>
 </head>
 <body>
-    <input type="color" name="" value="#00ff00" id="color">
+
     <div id="movil">
       <div class="java" id="java1">
         <div class="bocadillo dreta grande"></div>
@@ -35,7 +35,9 @@
         <div class="bocadillo nuevo2"></div>
       </div>
     <div class="slider">
+
       <div class="barra">
+
         <div id="01" class="bola"></div>
         <div id="02" class="bola"></div>
         <div id="03" class="bola"></div>
@@ -46,6 +48,7 @@
         <div id="08" class="bola"></div>
         <div id="09" class="bola"></div>
         <div id="10" class="bola"></div>
+        <div class="bola"><input type="color" id="colour" value="#ff0000"></div>
       </div>
     </div>
   </div>
@@ -81,6 +84,11 @@
     document.getElementById('java1').style.backgroundColor="black";
     }
 
+    document.getElementById('colour').addEventListener('input',canvi);
+    function canvi(){
+      document.getElementById('java1').style.backgroundColor=colour.value;
+    }
+
     document.getElementById('01').addEventListener('click',b01);
     document.getElementById('02').addEventListener('click',b02);
     document.getElementById('03').addEventListener('click',b03);
@@ -91,6 +99,7 @@
     document.getElementById('08').addEventListener('click',b08);
     document.getElementById('09').addEventListener('click',b09);
     document.getElementById('10').addEventListener('click',b10);
+
 
     function b01(){
     document.getElementById('java1').style.backgroundColor="#FF4D3B";
