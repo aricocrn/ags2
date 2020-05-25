@@ -1,6 +1,5 @@
 ul{
   width: 1000px;
-  overflow: hidden;
   padding: 10px;
   margin: 0 auto;
 }
@@ -13,6 +12,28 @@ li{
   float: left;
   box-shadow: #555 0px 0px 3px;
   background-size: 100%;
+  background-color: green;
+  font-family: Arial Black, Verdana, sans-serif;
+  text-emphasis: bold;
+  text-align: center;
+  text-shadow: 0px 0px 5px grey;
+  color: black;
+}
+li:hover{
+  background-color: cyan;
+  display: block;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  float: left;
+  box-shadow: #555 0px 0px 3px;
+  background-size: 100%;
+  background-color: green;
+  font-family: Arial Black, Verdana, sans-serif;
+  text-emphasis: bold;
+  text-align: center;
+  text-shadow: 0px 0px 5px white;
+  color: black;
 }
 /*
 .anulador{
@@ -21,7 +42,10 @@ li{
 */
 a{
   height: 200px;
-  display: block;
+  text-decoration: none;
+}
+#a00{
+  background-image: url(img/a00.png);
 }
 #a01{
   background-image: url(img/a01.png);
@@ -41,6 +65,18 @@ a{
 #a06{
   background-image: url(img/a06.png);
 }
-#a07{
-  background-image: url(img/a07.png);
+#a08{
+  background-image: url(img/a08.png);
+}
+#a09{
+  background-image: url(img/a09.png);
+}
+#a10{
+  background-image: url(img/a10.png);
+}
+#a11{
+  background-image: url(img/a11.png);
+}
+#a12{
+  background-image: url(img/a12.png);
 }

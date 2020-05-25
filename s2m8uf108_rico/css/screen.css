@@ -1,6 +1,5 @@
 body{
   font-family: 'Montserrat', sans-serif, Arial, Helvetica;
-  font-size: 1em;
 }
 
 .contingut{
@@ -90,11 +89,12 @@ body{
 .boto{
   position: fixed;
   bottom: 140px;
-  right: 40px;
+  right: 150px;
   height: 50px;
   width: 50px;
   border-radius: 30px;
   background-color: #FFB45C;
+  border: solid 1px #F6F6F6;
 }
 .atras{
   margin-left: 8px;
@@ -124,7 +124,7 @@ ul{
   background-color: #F0F0F0;
 }
 #platos2{
-  width: 73px;
+  width: 50px;
   height: 73px;
   background-color: #F0F0F0;
   float: left;
@@ -165,7 +165,7 @@ ul{
   background-color: #E5E5E5;
   position: absolute;
   top: 60px;
-  left: 80px;
+  left: 60px;
 }
 #img2{
   width: 90px;
@@ -173,7 +173,7 @@ ul{
   background-color: #E5E5E5;
   position: absolute;
   top: 210px;
-  left: 80px;
+  left: 60px;
 }
 #img3{
   width: 90px;
@@ -181,7 +181,7 @@ ul{
   background-color: #E5E5E5;
   position: absolute;
   top: 360px;
-  left: 80px;
+  left: 60px;
 }
 #bocadillos{
   width: 176px;
@@ -189,7 +189,7 @@ ul{
   background-color: #FFB45C;
   position: absolute;
   top: 60px;
-  left: 200px;
+  left: 160px;
   color: #FFFFFF;
   font-weight: bold;
 }
@@ -208,7 +208,7 @@ ul{
   background-color: #FFB45C;
   position: absolute;
   top: 210px;
-  left: 200px;
+  left: 160px;
   color: #FFFFFF;
   font-weight: bold;
 }
@@ -227,7 +227,7 @@ ul{
   background-color: #FFB45C;
   position: absolute;
   top: 360px;
-  left: 200px;
+  left: 160px;
   color: #FFFFFF;
   font-weight: bold;
 }
@@ -246,7 +246,7 @@ ul{
   background-color: #E5E5E5;
   position: absolute;
   top: 60px;
-  left: 80px;
+  left: 60px;
 }
 .img5{
   width: 117px;
@@ -254,7 +254,7 @@ ul{
   background-color: #E5E5E5;
   position: absolute;
   top: 60px;
-  left: 280px;
+  left: 220px;
 }
 .img6{
   width: 117px;
@@ -262,7 +262,7 @@ ul{
   background-color: #E5E5E5;
   position: absolute;
   top: 260px;
-  left: 80px;
+  left: 60px;
 }
 .img7{
   width: 117px;
@@ -270,7 +270,7 @@ ul{
   background-color: #E5E5E5;
   position: absolute;
   top: 260px;
-  left: 280px;
+  left: 220px;
 }
 .img8{
   width: 117px;
@@ -278,7 +278,7 @@ ul{
   background-color: #E5E5E5;
   position: absolute;
   top: 460px;
-  left: 80px;
+  left: 60px;
 }
 .img9{
   width: 117px;
@@ -286,7 +286,15 @@ ul{
   background-color: #E5E5E5;
   position: absolute;
   top: 460px;
-  left: 280px;
+  left: 220px;
+}
+.img10{
+  width: 117px;
+  height: 117px;
+  background-color: #E5E5E5;
+  position: absolute;
+  top: 660px;
+  left: 60px;
 }
 .mas{
   margin-left: 80px;
@@ -299,7 +307,7 @@ ul{
   font-size: 13px;
   position: absolute;
   top: 190px;
-  left: 80px;
+  left: 60px;
   color: white;
   text-align: center;
   padding-top: 2px;
@@ -311,7 +319,7 @@ ul{
   font-size: 13px;
   position: absolute;
   top: 190px;
-  left: 280px;
+  left: 220px;
   color: white;
   text-align: center;
   padding-top: 2px;
@@ -323,7 +331,7 @@ ul{
   font-size: 13px;
   position: absolute;
   top: 390px;
-  left: 80px;
+  left: 60px;
   color: white;
   text-align: center;
   padding-top: 2px;
@@ -335,7 +343,7 @@ ul{
   font-size: 13px;
   position: absolute;
   top: 390px;
-  left: 280px;
+  left: 220px;
   color: white;
   text-align: center;
   padding-top: 2px;
@@ -347,7 +355,7 @@ ul{
   font-size: 13px;
   position: absolute;
   top: 590px;
-  left: 80px;
+  left: 60px;
   color: white;
   text-align: center;
   padding-top: 2px;
@@ -359,7 +367,7 @@ ul{
   font-size: 13px;
   position: absolute;
   top: 590px;
-  left: 280px;
+  left: 220px;
   color: white;
   text-align: center;
   padding-top: 2px;
@@ -395,4 +403,20 @@ ul{
   margin-right: 10px;
   margin-top: 4px;
   font-weight: bold;
+}
+.nombreplato{
+  width: 141px;
+  height: 25px;
+  background-color: #FFB45C;
+  margin-left: 135px;
+  margin-bottom: 170px;
+  margin-top: 60px;
+  padding-top: 5px;
+  padding-left: 9px;
+  color: white;
+  font-size: 14px;
+}
+.desplato{
+  background-color: green;
+  width: 200px;
 }

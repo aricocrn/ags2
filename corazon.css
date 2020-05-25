@@ -1,0 +1,36 @@
+#cuadrado1{
+  position: absolute;
+  left: 80px;
+  width: 100px;
+  height: 150px;
+  background-color: red;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  float: left;
+  transform-origin: 50px 100px;
+  transform: rotate(45deg);
+}
+#cuadrado2{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  left: 80px;
+  background-color: red;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  transform-origin: 50px 100px;
+  transform: rotate(-45deg);
+}
+#corazon{
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  animation: bategan 2s infinite;
+}
+@keyframes bategan{
+  0% {transform: scale(0.75);}
+  25% {transform: scale(0.75);}
+  50% {transform: scale(0.75);}
+  75% {transform: scale(0.75);}
+  100% {transform: scale(0.75);}
+}
