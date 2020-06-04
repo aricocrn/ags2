@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
+  color: white;
+  font-family: sans-serif;
+}
+#cos{
+  width: 100%;
+  height: 900px;
+}
+#peu{
+  width: 100%;
+  height: 45px;
+  background-color: #101010;
+}
+#peu img{
+  float: left;
+  margin-left: 15px;
+}
+#docu{
+  margin-left: 140px;
+}
+#docu2{
+  margin-left: 20px;
+  float: left;
+  list-style-type: none;
+}
+#pelis{
+  margin-left: 20px;
+  float: left;
+  margin-right: 20px;
+  list-style-type: none;
+}
+#series{
+  list-style-type: none;
+}
+#docu2:hover{
+  text-decoration: underline;
+}
+#pelis:hover{
+  text-decoration: underline;
+}
+#series:hover{
+  text-decoration: underline;
+}
+#imgpeli{
+  margin-left: 15px;
+  float: left;
+}
+#sinopsis{
+  margin-left: 250px;
+}
+#filtres{
+  margin-left: 15px;
+  clear: both;
+  float: left;
+}
+#filtres h3{
+  padding-left: 20px;
+}
+#vist{
+  margin-left: 78px;
+  float: left;
+  margin-top: -30px;
+}
+#vist h3{
+  padding-left: 20px;
+}
+#vist h3:hover{
+  opacity: 50%;
+}
+#vist h1:hover{
+  opacity: 50%;
+}
+#filtres h3:hover{
+  opacity: 50%;
+}
+#filtres h1:hover{
+  opacity: 50%;
+}
+#comentaris{
+  width: 33%;
+  margin-left: 800px;
+  margin-top: 220px;
+}
